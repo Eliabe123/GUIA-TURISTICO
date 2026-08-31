@@ -10,7 +10,7 @@ body{
 
 .tudo{
   background-color: #f5f4f0;
-  margin: 65px;
+  margin: 65px; /*Afasta o conteudo de fora*/
 }
 
 .headline{
@@ -23,7 +23,7 @@ h1{
   font-size: 36px;
   color: #1B1B1B;
   font-weight: bold;
-  padding-top: 8px;
+  padding-top: 8px; /*padding afasta o conteudo interno das bordas*/
   margin-bottom: 40px;
 }
 
@@ -53,7 +53,7 @@ img{
 p{
   font-size: 16px;
   color: #333333;
-}
+} 
 
 #titulo-atracoes{
   padding-top: 64px;
@@ -107,3 +107,33 @@ h3{
 }
 
 
+.footer-paragrafo{
+  text-align: center;
+}
+
+.coracao-rodape{
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; /*Alinha a imagem na linha da escrita ao redor*/
+}
+
+.tudo-coracao{
+  text-align: center;
+}
+
+ol, ul {
+  list-style-position: inside; /*Passa a ficar dentro do conteudo interno*/
+  padding-left: 2px;
+}
+
+ul{
+  list-style-type: disc; /*Estilo da lista / bolinha*/
+}
+
+ul li::marker{
+  color: #333333;
+}
+
+ol{
+  list-style: none; /*Retira as numerações*/
+}
